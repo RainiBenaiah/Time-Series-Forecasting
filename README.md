@@ -79,24 +79,24 @@ The dataset consists of hourly air quality and meteorological data split into `t
 
 5. **Model Comparison**: LSTM outperformed GRU due to better long-term memory retention
 
-## Installation & Setup
+### Installation & Setup
 
-```bash
-# Clone the repository
+bash
+## Clone the repository
 git clone [repository-url]
 cd air-pollution-forecasting
 
-# Install required packages
+## Install required packages
 pip install tensorflow pandas numpy scikit-learn matplotlib
 
 
 ## Model Performance Metrics
 
-- **Best MSE**: 0.00357
-- **RMSE**: ~0.0598 (on normalized scale)
-- **Training Stability**: Achieved through EarlyStopping and dropout regularization
+ **Best MSE**: 0.00357
+ **RMSE**: ~0.0598 (on normalized scale)
+ **Training Stability**: Achieved through EarlyStopping and dropout regularization
 
-## Future Improvements
+### Future Improvements
 
 1. **Multi-step Forecasting**: Extend to predict next 6 or 24 hours
 2. **Advanced Architectures**: 
@@ -108,7 +108,7 @@ pip install tensorflow pandas numpy scikit-learn matplotlib
 4. **Feature Enhancement**: Include additional meteorological variables
 5. **Ensemble Methods**: Combine multiple models for improved accuracy
 
-## Technical Requirements
+### Technical Requirements
 
 - Python 3.7+
 - TensorFlow 2.x
@@ -117,7 +117,7 @@ pip install tensorflow pandas numpy scikit-learn matplotlib
 - Scikit-learn
 - Matplotlib/Seaborn (for visualization)
 
-## Contributing
+### Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/new-feature`)
@@ -126,10 +126,10 @@ pip install tensorflow pandas numpy scikit-learn matplotlib
 5. Create a Pull Request
 
 
-## Contact
+### Contact
 
 [b.raini@alustudent.com]
 
----
+
 
 **Note**: This project demonstrates the effectiveness of LSTM networks for environmental time series forecasting and provides a foundation for real-world air quality prediction systems.
